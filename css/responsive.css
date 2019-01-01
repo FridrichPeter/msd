@@ -1,0 +1,136 @@
+/*=========================================
+            BOOTSTRAP 3 Media Queries
+===========================================*/
+
+/*xLG devices */
+
+@media (min-width: 1200px) {
+/*   ok     */
+}
+
+/*MD devices */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+/*    mobile menu*/
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    msd-nav-wrapper {
+       padding: 0;
+    }
+}
+
+/*SM devices*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*    mobile menu*/
+     .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    msd-nav-wrapper {
+       padding: 0;
+    }
+/*    about - rem diagonal border*/
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box {
+        padding-top: 30px;
+        width: 100%;
+        height: 450px;
+    }
+
+/*    STATS */
+    .stats item {
+        padding: 20px 0;
+    }
+/*    FOOTER-BOTTOM */
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+/*xSM-1 devices*/
+
+@media (max-width: 767px) {
+    /*    mobile menu*/
+     .navbar {
+        background: rgba(0, 0, 0, .7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    msd-nav-wrapper {
+       padding: 0;
+    }
+/*    home heading*/
+    #home-heading h3 {
+        font-size: 24px;
+    }
+/*    buttons*/
+    .btn-general {
+        padding: 6px 22px;
+        font-size: 14px;
+    }
+    /*    about - rem diagonal border*/
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+    }
+    #about-content-box {
+        padding-top: 30px;
+        width: 100%;
+        height: 450px;
+    }
+/*    work */
+    .img-wrapper img {
+        min-width: 100%;
+    }
+/*Testimonials*/
+    .testimonial blockqoute {
+        padding: 6px 50px;
+    }
+    .testimonial blockqoute:before {
+        left: 10px;
+    }
+    .testimonial blockqoute:after {
+        right: 10px;
+    }
+    .testimonial blockqoute p {
+        font-size: 14px;
+    }
+    /*    STATS */
+    .stats item {
+        padding: 20px 0;
+    }
+    /*    FOOTER-BOTTOM */
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+/*xSM-2 devices*/
+
+@media (max-width: 480px) {
+
+}
+
+/*xSM-3 devices*/
+
+@media (max-width: 320px) {
+
+}

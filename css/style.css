@@ -66,6 +66,7 @@ h3 {
     font-size: 50px;
     font-weight: 700;
     margin: 20px 0 20px 0;
+    text-shadow: 0 0 20px #69BD27;
 }
 
 /*=========================================
@@ -110,9 +111,17 @@ btn-white:focus {
 }
 
 .btn-green:hover,
-btn-green:focus {
+.btn-green:focus {
     background-color: #69BD27;
     color: #fff;
+}
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    display: none;
 }
 
 
@@ -211,7 +220,7 @@ btn-green:focus {
 ===========================================*/
 #about-bg-diagonal {
     float: right;
-    width: 60%;
+    width: 55%;
     height: 700px;
     background-image: url(../img/compass.jpg);
     border-left: 200px solid #fff;
@@ -224,7 +233,7 @@ btn-green:focus {
 }
 
 #about-content-box-outer {
-    widows: 100%;
+    width: 100%;
     height: 100%;
     display: table;
 }
@@ -232,7 +241,6 @@ btn-green:focus {
 #about-content-box-inner {
     display: table-cell;
     vertical-align: middle;
-    padding-top: 0;
 }
 
 #about .content-title h3 {
@@ -653,9 +661,11 @@ form .form-control {
     background: none;
 }
 
-
-
-
+.navbar-brand img {
+    width: 3.5em;
+    top: 15px;
+    position: fixed;
+}
 
 
 
