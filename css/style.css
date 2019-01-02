@@ -623,7 +623,7 @@ form .form-control {
 }
 
 .msd-nav-wrapper {
-    padding: 0 85px;
+    padding: 0 55px;
 }
 
 .navbar-nav {
@@ -638,7 +638,7 @@ form .form-control {
     font-weight: 700;
 }
 
-.navbar-nav > li > a:hover {
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     background: none;
     color: #69BD27;
 }
