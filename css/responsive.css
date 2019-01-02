@@ -19,7 +19,7 @@
     .navbar-nav {
         float: left;
     }
-    msd-nav-wrapper {
+    .msd-nav-wrapper {
        padding: 0 40px;
     }
 }
@@ -35,7 +35,7 @@
     .navbar-nav {
         float: left;
     }
-    msd-nav-wrapper {
+    .msd-nav-wrapper {
        padding: 0 40px;
     }
 /*    about - rem diagonal border*/
@@ -48,6 +48,13 @@
     #about-content-box {
         padding-top: 30px;
         width: 100%;
+    }
+
+     .testimonial blockqoute:before {
+        left: 100px;
+    }
+    .testimonial blockqoute:after {
+        right: 100px;
     }
 
 /*    STATS */
@@ -72,7 +79,7 @@
     .navbar-nav {
         float: left;
     }
-    msd-nav-wrapper {
+    .msd-nav-wrapper {
        padding: 0 35px;
     }
 /*    home heading*/
